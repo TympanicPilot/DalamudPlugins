@@ -1,12 +1,12 @@
 [
   {
-    "Author": "DodingDaga",
-    "Name": "Puppet Master",
-    "InternalName": "PuppetMaster",
+    "Author": "TympanicPilot",
+    "Name": "Puppet Master Plus",
+    "InternalName": "PuppetMasterPlus",
     "AssemblyVersion": "7.2.0.1",
-    "Description": "For the lulz",
+    "Description": "Fork of dodingdaga's Puppet Master with more features",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/dodingdaga/DalamudPlugins",
+    "RepoUrl": "https://github.com/TympanicPilot/DalamudPlugins",
     "Tags": [
       "emote",
       "plugin"
@@ -17,32 +17,9 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadCount": 0,
-    "LastUpdated": "1743496245",
-    "DownloadLinkInstall": "https://github.com/dodingdaga/DalamudPlugins/releases/download/pp7.2.0.1/latest_pp.zip",
-    "DownloadLinkTesting": "https://github.com/dodingdaga/DalamudPlugins/releases/download/pp7.2.0.1/latest_pp.zip",
-    "DownloadLinkUpdate": "https://github.com/dodingdaga/DalamudPlugins/releases/download/pp7.2.0.1/latest_pp.zip"
-  },
-  {
-    "Author": "DodingDaga",
-    "Name": "Right Back At You",
-    "InternalName": "Copycat",
-    "AssemblyVersion": "7.2.0.1",
-    "Description": "For the lulz",
-    "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/dodingdaga/DalamudPlugins",
-    "Tags": [
-      "plugin",
-      "emote"
-    ],
-    "DalamudApiLevel": 12,
-    "LoadPriority": 0,
-    "Punchline": "Nothing but a second-rate, trying hard, copycat!",
-    "IsHide": false,
-    "IsTestingExclusive": false,
-    "DownloadCount": 0,
-    "LastUpdated": "1746126063",
-    "DownloadLinkInstall": "https://github.com/dodingdaga/DalamudPlugins/releases/download/pp7.2.0.1/latest_cc.zip",
-    "DownloadLinkTesting": "https://github.com/dodingdaga/DalamudPlugins/releases/download/pp7.2.0.1/latest_cc.zip",
-    "DownloadLinkUpdate": "https://github.com/dodingdaga/DalamudPlugins/releases/download/pp7.2.0.1/latest_cc.zip"
+    "LastUpdated": "1751552587",
+    "DownloadLinkInstall": "https://github.com/TympanicPilot/DalamudPlugins/releases/download/pp7.2.0.1/latest_pp.zip",
+    "DownloadLinkTesting": "https://github.com/TympanicPilot/DalamudPlugins/releases/download/pp7.2.0.1/latest_pp.zip",
+    "DownloadLinkUpdate": "https://github.com/TympanicPilot/DalamudPlugins/releases/download/pp7.2.0.1/latest_pp.zip"
   }
 ]
