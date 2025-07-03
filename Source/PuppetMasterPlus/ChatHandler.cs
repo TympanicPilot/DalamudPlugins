@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 
 using ECommons.Automation;
 
-namespace PuppetMaster
+namespace PuppetMasterPlus
 {
     public partial class ChatHandler
     {
@@ -72,7 +72,7 @@ namespace PuppetMaster
                 (!usingRegex && Service.configuration.Reactions[index].Rx!.ToString().IsNullOrWhitespace()))
             {
 #if DEBUG
-                Service.ChatGui.PrintError($"[PuppetMasster][ERR] Empty RegEx [{message}]");
+                Service.ChatGui.PrintError($"[PuppetMasterPlus][ERR] Empty RegEx [{message}]");
 #endif
                 return;
             }

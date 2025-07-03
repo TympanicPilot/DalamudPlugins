@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuppetMaster", "PuppetMaster\PuppetMaster.csproj", "{13C812E9-0D42-4B95-8646-40EEBF30636F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Copycat", "Copycat\Copycat.csproj", "{AB0D00B6-8C32-491D-BACE-EB73DC7F69E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuppetMasterPlus", "PuppetMasterPlus\PuppetMasterPlus.csproj", "{13C812E9-0D42-4B95-8646-40EEBF30636F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommons", "ECommons\ECommons\ECommons.csproj", "{DFBC15F2-3A5F-4437-B309-73F848FD428F}"
 EndProject

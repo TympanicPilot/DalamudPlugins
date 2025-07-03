@@ -6,11 +6,11 @@ using System.Numerics;
 
 using Dalamud.Interface.Windowing;
 
-namespace PuppetMaster
+namespace PuppetMasterPlus
 {
     public class ConfigWindow : Window, IDisposable
     {
-        public const String Name = "Puppet Master settings";
+        public const String Name = "Puppet Master Plus settings";
 
         private static Service.ParsedTextCommand TextCommand = new();
         private static int CurrentReactionIndex;
@@ -181,7 +181,7 @@ namespace PuppetMaster
         {            
             ImGui.SetNextWindowSize(new Vector2(480, 640), ImGuiCond.FirstUseEver);
 
-            ImGui.BeginTabBar("PuppetMaster Config Tabs");
+            ImGui.BeginTabBar("PuppetMasterPlus Config Tabs");
 
             if (ImGui.BeginTabItem("Reactions"))
             {

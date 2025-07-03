@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Threading;
 
-namespace PuppetMaster
+namespace PuppetMasterPlus
 {
     internal class Service
     {
@@ -28,7 +28,7 @@ namespace PuppetMaster
         {
             emoteCommands = DataManager.GetExcelSheet<Emote>();
             if (emoteCommands == null)
-                ChatGui.PrintError($"[PuppetMaster][Error] Failed to read Emotes list");
+                ChatGui.PrintError($"[PuppetMasterPlus][Error] Failed to read Emotes list");
             else
             {
                 foreach (var emoteCommand in emoteCommands)
@@ -43,7 +43,7 @@ namespace PuppetMaster
                     if (cmd != null && cmd != "") Emotes.Add(cmd);
                 }
                 if (Emotes.Count == 0)
-                    ChatGui.PrintError($"[PuppetMaster][Error] Failed to build Emotes list");
+                    ChatGui.PrintError($"[PuppetMasterPlus][Error] Failed to build Emotes list");
             }
         }
 
@@ -54,7 +54,7 @@ namespace PuppetMaster
             configuration?.Save();
 #if DEBUG
             if (configuration != null && configuration.Reactions.Count > 0)
-                ChatGui.Print("[PuppetMaster] "+(enabled ? "Enabled" : "Disabled") + $" {configuration.Reactions.Count} reaction" + (configuration.Reactions.Count > 1 ? "s" : ""));
+                ChatGui.Print("[PuppetMasterPlus] "+(enabled ? "Enabled" : "Disabled") + $" {configuration.Reactions.Count} reaction" + (configuration.Reactions.Count > 1 ? "s" : ""));
 #endif
         }
 
@@ -76,7 +76,7 @@ namespace PuppetMaster
 #if DEBUG
             if (found > 0)
             {
-                ChatGui.Print("[PuppetMaster] " + (enabled ? "Enabled" : "Disabled") + $" {found} reaction" + (found > 1 ? "s" : "") + $" with name={name}");
+                ChatGui.Print("[PuppetMasterPlus] " + (enabled ? "Enabled" : "Disabled") + $" {found} reaction" + (found > 1 ? "s" : "") + $" with name={name}");
             }
 #endif
             configuration?.Save();

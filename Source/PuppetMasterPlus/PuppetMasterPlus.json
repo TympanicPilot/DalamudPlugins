@@ -1,0 +1,12 @@
+{
+  "Author": "TympanicPilot",
+  "Name": "Puppet Master Plus",
+  "Punchline": "Let others tell you what to do.",
+  "Description": "Fork of dodingdaga's Puppet Master with more features",
+  "InternalName": "puppetmasterplus",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "plugin",
+    "emote"
+  ]
+}

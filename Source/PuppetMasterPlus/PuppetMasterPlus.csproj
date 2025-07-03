@@ -2,10 +2,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
 
-    <Authors>DodingDaga</Authors>
-    <Company>Bratatat</Company>
-    <Version>7.2.0.1</Version>
-    <Description>Let others tell you what to do</Description>
+    <Authors>TympanicPilot</Authors>
+    <Company>Test</Company>
+    <Version>7.2.0.1+1</Version>
+    <Description>Fork of dodingdaga's Puppet Master with more features</Description>
     <Copyright></Copyright>
   </PropertyGroup>
 

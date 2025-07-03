@@ -5,13 +5,13 @@ using System;
 
 using ECommons;
 
-namespace PuppetMaster
+namespace PuppetMasterPlus
 {
     public class Plugin : IDalamudPlugin
     {
-        public static String Name => "PuppetMaster";
-        private const String CommandName = "/puppetmaster";
-        public WindowSystem windowSystem = new("PuppetMaster");
+        public static String Name => "PuppetMasterPlus";
+        private const String CommandName = "/puppetmasterplus";
+        public WindowSystem windowSystem = new("PuppetMasterPlus");
         public ConfigWindow configWindow;
 
         public Plugin(IDalamudPluginInterface pluginInterface)
@@ -30,8 +30,8 @@ namespace PuppetMaster
             Service.CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand)
             {
                 HelpMessage = @"Open settings dialog
-/puppetmaster on|off - enable or disable all reactions
-/puppetmaster on|off <ReactionName> - enable or disable reactions by name"
+/puppetmasterplus on|off - enable or disable all reactions
+/puppetmasterplus on|off <ReactionName> - enable or disable reactions by name"
             });
             Service.ChatGui.ChatMessage += ChatHandler.OnChatMessage;
             Service.PluginInterface.UiBuilder.Draw += DrawUI;
@@ -63,7 +63,7 @@ namespace PuppetMaster
             {
                 var ptc = Service.FormatCommand($"/{args}");
 #if DEBUG
-                Service.ChatGui.Print($"[PuppetMaster][Debug] PARSED TEXT COMMAND: {ptc}");
+                Service.ChatGui.Print($"[PuppetMasterPlus][Debug] PARSED TEXT COMMAND: {ptc}");
 #endif
                 void enableReactions(bool enable)
                 {
