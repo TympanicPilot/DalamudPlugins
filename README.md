@@ -2,7 +2,7 @@
 
 Add this link to your plugin sources and install!
 ```
-https://raw.githubusercontent.com/TympanicPilot/DalamudPlugins/main/PuppetMaster.json
+https://raw.githubusercontent.com/TympanicPilot/DalamudPlugins/main/PuppetMasterPlus.json
 ```
 
 # Credit
